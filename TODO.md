@@ -18,6 +18,7 @@
     - Gradient
     - date_to_day
     - day_to_date
+    - Get wind vector field ONLY from pressure data (gradient)
 
 # Pressure Distribution Classification
 - Get geopot gradient and normalize
@@ -28,3 +29,5 @@
 
 ## Idea 2
 - dot product of all wind vectors with ideal wind vector pointing up the coast
+
+- Mask to continental US -> THEN normalize
