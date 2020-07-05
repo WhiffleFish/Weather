@@ -2,6 +2,7 @@
 - [x] Wind velocity quiver plot
 - [x] Add coastlines to quiver plot
 - Match line contour colormap to fill contour colormap
+- Gradient plot
 - [x] Return fig, ax objects for post-method-call plot manipulation
 - Major lat/lon lines in plot
 - [x] Change longitudes from 0-360 to +-180
@@ -18,7 +19,8 @@
     - Gradient
     - date_to_day
     - day_to_date
-    - Get wind vector field ONLY from pressure data (gradient)
+    - Infer wind vectorfield from pressure gradient
+        - Remove dependency on wind .cdf files
 
 # Pressure Distribution Classification
 - Get geopot gradient and normalize
