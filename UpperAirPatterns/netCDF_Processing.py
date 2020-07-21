@@ -9,7 +9,7 @@ import logging
 class CDFData():
 
     def __init__(self, hgt_path, uwind_path=None, vwind_path=None):
-        
+
         logging.getLogger().setLevel(logging.INFO)
         
         (self.year, self.times, self.lats, self.lons, self.hgts) = self.retrieve_data(hgt_path, 'hgt')
